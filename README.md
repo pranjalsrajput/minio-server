@@ -9,12 +9,10 @@ A secure minio server for publicly serving the local storage data.
 - Make sure DNS points to your server IP (both A and/or AAAA records).
 
 - Run Certbot once to get the initial certificate:
-
 ```bash
 docker compose run certbot
-Start the full stack:
 ```
-
+- Start the full stack
 ```bash
 docker compose up -d
 ```
